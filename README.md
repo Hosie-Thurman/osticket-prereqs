@@ -19,14 +19,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
+- Windows Remote Deskop
+- MacOS Remote Desktop 
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- mySQL: The database which will contain the data from osTicket.
+- HeidiSQL: The database manager or GUI we will use to interact with the database.
+- PHP: The server-side scripting language used to display the HTML webpages of osTicket.
+- PHP Manager: A feature that will allow us to interact with the scripts through the Management Console.
+- VC Redist: Provides the necessary runtime components for running C++ applications, essential for certain dependencies of PHP and IIS.
+- Rewrite: (URL Rewrite Module for IIS) Allows for the customization of URLs, enabling redirection and URL rewriting for osTicket.
 
 <h2>Installation Steps</h2>
 
